@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Kinetika-Black";
+
+  src: url("../fonts/Kinetika-Black.ttf") format("truetype"),
+    url("../fonts/KinetikaBlack.woff") format("woff"),
+    url("../fonts/KinetikaBlack.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Kinetika-Bold";
+
+  src: url("../fonts/Kinetika-Bold.ttf") format("truetype"),
+    url("../fonts/KinetikaBold.woff") format("woff"),
+    url("../fonts/KinetikaBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Kinetika-Light";
+
+  src: url("../fonts/Kinetika-Light.ttf") format("truetype"),
+    url("../fonts/KinetikaLight.woff") format("woff"),
+    url("../fonts/KinetikaLight.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Kinetika-Regular";
+  src: url("../fonts/Kinetika-Regular.ttf") format("truetype"),
+    url("../fonts/KinetikaRegular.woff") format("woff"),
+    url("../fonts/KinetikaRegular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Kinetika-Medium";
+
+  src: url("../fonts/KinetikaMedium.ttf") format("truetype"),
+    url("../fonts/KinetikaMedium.woff") format("woff"),
+    url("../fonts/KinetikaMedium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Magistral-ExtraBold";
+
+  src: url("../fonts/Magistral-ExtraBold.ttf") format("truetype"),
+    url("../fonts/Magistral-ExtraBold.woff") format("woff"),
+    url("../fonts/Magistral-ExtraBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,84 @@
+.header
+  background-color: $dark
+.head
+  padding-top: 25px
+  padding-bottom: 25px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  &-logo
+    width: 225px
+  &-title
+    display: flex
+    flex-direction: column
+    align-items: center
+    &_headline
+      font-family: Magistral-ExtraBold
+      font-style: normal
+      font-weight: bold
+      font-size: 24px
+      line-height: 30px
+      color: $light
+    &_text
+      font-family: Magistral-ExtraBold
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 20px
+      color: $dark-text-color
+  &-call
+    display: flex
+    align-items: flex-end
+    flex-direction: column
+    column-gap: 10px
+    &_title
+      font-family: Magistral-ExtraBold
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 17px
+      color: $light
+    &_number
+      font-family: Magistral-ExtraBold
+      font-style: normal
+      font-weight: 900
+      font-size: 36px
+      line-height: 36px
+      &-link
+        text-decoration: none
+        color: $light
+        transition: color 0.5s ease
+        &:hover
+          color: $red
+      &-code
+        font-family: Magistral-ExtraBold
+        font-style: normal
+        font-weight: 900
+        font-size: 18px
+        line-height: 18px
+        color: $light
+.navigation
+  display: flex
+  justify-content: space-between
+  margin: 0
+  padding: 20px 0px 20px
+  &-item
+    list-style-type: none
+  &-link
+    padding: 4px
+    font-family: Kinetika-Black
+    font-style: normal
+    font-weight: 900
+    font-size: 18px
+    line-height: 22px
+    text-decoration: none
+    transition: background-color 0.5s ease
+    color: $light
+    &:hover
+      background-color: $red
+.menu
+  &-button
+    display: none
+.mobile
+  &_info
+    display: none

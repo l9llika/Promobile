@@ -1,0 +1,79 @@
+.services
+  padding-top: 20px
+  padding-bottom: 20px
+  background-color: $dark
+  &-wrapper
+    display: flex
+    flex-direction: column
+    align-items: center
+  &-blocks
+    display: flex
+    justify-content: space-evenly
+    width: 100%
+  &-headline
+    margin-bottom: 30px
+    text-align: center
+    color: $green
+    @include boldHeadline
+  &-block
+    position: relative
+    width: 250px
+    min-height: 400px
+    height: 100%
+    border-radius: 10px
+    overflow: hidden
+    background-color: $light
+    &_image
+      height: 200px
+      object-fit: cover
+    &_about
+      padding: 10px 20px 50px
+      &-headline
+        margin-top: 0
+        margin-bottom: 10px
+        color: $red
+        @include mediumText
+      &-text
+        color: $dark
+        @include infoText
+      &-price
+        display: block
+        margin-top: 10px
+        color: black
+        @include heading
+      &-discount
+        display: block
+        margin-top: 10px
+        margin-bottom: 20px
+        color: black
+        @include infoText
+      &-link
+        position: absolute
+        bottom: 14px
+        display: block
+        color: $light
+        background-color: $green
+        transition: background-color 0.5s ease
+        @include link-btn
+        &:hover
+          background-color: $red
+  &-link
+    display: block
+    text-align: center
+    margin-top: 25px
+    padding: 15px
+    width: 220px
+    color: $green
+    text-decoration: none
+    font-family: Kinetika-Bold
+    font-style: normal
+    font-weight: bold
+    font-size: 14px
+    line-height: 16px
+    border-radius: 50px
+    background-color: $dark
+    border: 2px $green solid
+    transition: background-color 0.5s ease
+    &:hover
+      color: $light
+      background-color: $green

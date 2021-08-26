@@ -1,0 +1,56 @@
+.map
+  position: relative
+  z-index: 0
+  &-wrapper
+    padding: 20px 30px 45px
+    position: absolute
+    right: 15%
+    width: 400px
+    height: 400px
+    background-color: $light
+    z-index: 10
+  &-headline
+    color: $dark
+    @include mediumText
+    &_block
+      display: flex
+      margin-bottom: 20px
+      &-divider
+        margin: 10px 15px 0 0
+        width: 50px
+        height: 2px
+        border: none
+        background-color: $green
+      &-text
+        display: flex
+        flex-direction: column
+        &_address
+          color: $dark
+          @include mediumText14
+        &_floor
+          color: $dark
+          @include infoText
+  &-information
+    &_block
+      display: flex
+      align-items: center
+      margin-bottom: 20px
+      &-image
+        height: 35px
+        margin-right: 10px
+      &-text
+        display: flex
+        flex-direction: column
+        &_heading
+          color: $dark
+          @include mediumText
+        &_info
+          color: $dark
+          @include mediumText14
+        &_link
+          color: $dark
+          text-decoration: none
+          transition: color 0.5s ease
+          @include mediumText
+          &:hover
+            color: $red

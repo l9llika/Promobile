@@ -1,0 +1,38 @@
+.capture
+  &-wrapper
+    padding-top: 60px
+    padding-bottom: 60px
+    margin: auto
+    display: flex
+    justify-content: space-between
+    width: 920px
+  &-image
+    height: 235px
+    min-width: 410px
+    border-radius: 10px
+    object-fit: cover
+    &--order
+      &--1
+        order: 0
+      &--2
+        order: 2
+  &__offer
+    justify-content: space-between
+    display: flex
+    flex-direction: column
+    padding-left: 45px
+    &-headline
+      margin-top: 0
+      margin-bottom: 10px
+      color: $dark
+      @include boldHeadline
+    &-text
+      color: $dark
+      @include mediumText
+    &-link
+      color: $light
+      background-color: $red
+      transition: background-color 0.5s ease
+      @include link-btn
+      &:hover
+        background-color: $green

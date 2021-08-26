@@ -1,0 +1,105 @@
+.footer
+  padding-top: 60px
+  padding-bottom: 20px
+  background-color: $dark
+  &-wrapper
+    display: flex
+    justify-content: space-between
+  &-left
+    display: flex
+    flex-direction: column
+  &-logo
+    margin-bottom: 35px
+    width: 345px
+  &-headline
+    color: $light
+    @include boldHeadline
+  &__social
+    margin-top: 40px
+    &-link
+      margin-right: 15px
+      &_icon
+        width: 50px
+        height: 50px
+        &:hover
+          opacity: 0.6
+  &-list
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    width: 200px
+    height: 100%
+    margin: 0
+    padding: 0
+    list-style-type: none
+    color: $light
+    &_item
+      margin-bottom: 20px
+      &-link
+        padding: 4px
+        text-decoration: none
+        color: $light
+        transition: background-color 0.5s ease
+        @include mediumText
+        &:hover
+          background-color: $red
+
+.bottom
+  display: flex
+  flex-direction: column
+  &__title
+    margin-top: 0
+    margin-bottom: 0
+    color: $light
+    @include mediumText
+  &__chat
+    &-link
+      margin-top: 20px
+      margin-bottom: 20px
+      color: $light
+      background-color: $red
+      transition: background-color 0.5s ease
+      @include link-btn
+      &:hover
+        background-color: $green
+  &__form
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 245px
+  &__input
+    margin-bottom: 12px
+    padding: 10px
+    border: none
+    border-radius: 10px
+  &__message
+    margin-bottom: 12px
+    padding: 10px
+    height: 100px
+    resize: none
+    border: none
+    border-radius: 10px
+  &__button
+    border: none
+    cursor: pointer
+    color: $light
+    background-color: $red
+    transition: background-color 0.5s ease
+    @include link-btn
+    &:hover
+      background-color: $green
+.copyright
+  background-color: black
+  color: $light
+  @include mediumText
+  &-block
+    padding-top: 10px
+    padding-bottom: 10px
+    display: flex
+    justify-content: space-between
+    &_author
+      color: inherit
+      text-decoration: none
+      transition: color 0.5s ease
+      &:hover
+        color: $red

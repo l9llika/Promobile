@@ -1,0 +1,31 @@
+.banner
+  background-color: $dark
+  padding-top: 70px
+  &-wrapper
+    display: flex
+    justify-content: space-around
+  &__image
+    height: 420px
+  &__text
+    &-heading
+      padding: 12px
+      margin-top: 0px
+      margin-bottom: 12px
+      width: fit-content
+      color: $light
+      background-color: $red
+      @include headline
+    &-bottom
+      display: flex
+      align-items: center
+      width: 100%
+      &_divider
+        margin-right: 14px
+        width: 8px
+        height: 106px
+        background-color: green
+        border: none
+      &_offer
+        width: 100%
+        color: $light
+        @include headline
